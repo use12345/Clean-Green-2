@@ -1,0 +1,33 @@
+.navbar{
+    overflow: hidden;
+    background-color: aliceblue;
+    border-color: aqua;
+    border-style: solid;
+}
+.navbar a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+
+    background-color: black;
+    color: aliceblue;
+}
+.container{
+  display: flexbox;
+}
+.column{
+  flex: 1;
+  flex-direction: column;
+}
+.item{
+ flex-grow: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: aquamarine;
+}
